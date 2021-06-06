@@ -1,3 +1,3 @@
 <?php
-    $conn = mysqli_connect('localhost','root','','project-covid');
+    $conn = mysqli_connect('localhost','root','','artisanlaravel');
 ?>
