@@ -1,3 +1,3 @@
 <?php
-    $conn = mysqli_connect('localhost','root','','web-dpw');
+    $conn = mysqli_connect('localhost','root','','projectakhir-artisanlaravel');
 ?>
