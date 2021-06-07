@@ -51,12 +51,17 @@ include_once"koneksi.php";
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 <?php
-  	if(isset($_POST['login'])){
-		$username	= $_POST['username'];
+  	if(isset($_POST['login'])){ //fungsi login, metode pengiriman $_POST -> biasanya untuk sebuah button
+    // $_GET -> mengirimkan data variabel
+    // isset -> menjalankan fungsi sebuah value
+		$username	= $_POST['username']; //fungsi username
         $password	= md5($_POST['password']);
+        // dijadikan sebuah pemeriksaan
         $sql= mysqli_query($conn,"select * from tbl_admin where username='$username' and password='$password' ");
-            if(mysqli_num_rows($sql)>0){
-              $row_admin = mysqli_fetch_array($sql);  
+          // memeriksa variabe sql yang berisikan sebuah fungsi untuk mengecek tabel admin
+            if(mysqli_num_rows($sql) > 0){
+              $row_admin = mysqli_fetch_array($sql);
+              // jadikan fungsi $_SESSION, namun harus membuat ob_star dan session_start terlebih dahulu
               $_SESSION['username']= $username;
               $_SESSION['password']= $password;
                 header('location: index.php');

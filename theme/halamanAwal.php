@@ -86,14 +86,14 @@
                 $_SESSION['nik']  = $nik;
                 $_SESSION['nama'] = $nama;
                 $pesan ="<div class='alert alert-success alert-dismissible fade show' role='alert'>
-                <strong>Berhasil !</strong> Mendaftar <u>$_SESSION[nama]</u> Silahkan Isikan Form <a href='index.php'>Klik Sekarang</a>.
+                <strong>Berhasil !</strong> Mendaftar <u>$_SESSION[nama]</u> Silahkan Isi Form Registrasi. <a href='index.php'>Klik Sekarang !</a>.
                 <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                   <span aria-hidden='true'>&times;</span>
                 </button>
               </div>";
               }else{
                 $pesan ="<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-                <strong>Gagal !</strong> Mendaftar .
+                <strong>Gagal Mendaftar! </strong> Silahkan daftar ulang  .
                 <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
                   <span aria-hidden='true'>&times;</span>
                 </button>

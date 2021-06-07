@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 04, 2021 at 03:54 PM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.9
+-- Generation Time: Jun 06, 2021 at 08:47 PM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 8.0.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `covid`
+-- Database: `project_covid`
 --
 
 -- --------------------------------------------------------
@@ -41,7 +40,11 @@ CREATE TABLE `tbl_admin` (
 --
 
 INSERT INTO `tbl_admin` (`id_admin`, `username`, `password`, `nama`, `level`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'fadil', 'user');
+(1, 'm.haviz', 'c73a38fcc9a0129d536ecde6be396e08', 'haviz', 'admin'),
+(2, 'nico.naufal', '410ec15153a6dff0bed851467309bcbd', 'nico', 'admin'),
+(3, 'rafly', '0cfeca41e1bf14cfae765b2edd2786b0', 'rafly', 'admin'),
+(4, 'rahmah_kp', '8cdc83fd90096d80c152f09290b55d4e', 'rahmah', 'admin'),
+(5, 'atta', '6175602e1163102318272b77a8e4be6d', 'atta', 'admin');
 
 -- --------------------------------------------------------
 
@@ -65,7 +68,17 @@ CREATE TABLE `tbl_jawaban` (
 INSERT INTO `tbl_jawaban` (`id_jawaban`, `nik`, `benar`, `salah`, `kosong`, `nilai`) VALUES
 (5, '17678889', 5, 5, 0, '50'),
 (6, '111110988112000', 1, 9, 0, '10'),
-(7, '111800766', 4, 6, 0, '40');
+(7, '111800766', 4, 6, 0, '40'),
+(8, '3175012704090001', 4, 6, 0, '40'),
+(9, '2147483647', 3, 7, 0, '30'),
+(10, '456234', 1, 8, 1, '10'),
+(11, '456234', 1, 8, 1, '10'),
+(12, '456234', 1, 8, 1, '10'),
+(13, '456234', 0, 0, 10, '0'),
+(14, '456234', 0, 0, 10, '0'),
+(15, '456234', 0, 0, 10, '0'),
+(16, '456234', 0, 0, 10, '0'),
+(17, '456234', 3, 7, 0, '30');
 
 -- --------------------------------------------------------
 
@@ -91,15 +104,10 @@ CREATE TABLE `tbl_register` (
 --
 
 INSERT INTO `tbl_register` (`id_register`, `nik`, `nama`, `tanggallahir`, `usia`, `alamat`, `provinsi`, `jk`, `status`, `hasil_pemeriksaan`) VALUES
-(1, 17678889, 'andi', '2021-05-13', 0, 'Aceh', 'Aceh', 'pria', 'lajang', 'positif'),
-(3, 1111, 'hafitNI@gmail.com', '2021-05-12', 0, 'Kalimantan Utara', 'Kalimantan Utara', 'pria', 'lajang', 'negatif'),
-(4, 1117889900, 'Andto', '2000-02-08', 0, 'Pemalang', 'Jawa Tengah', 'pria', 'lajang', 'negatif'),
-(5, 118890, 'hafitNI@gmail.com', '1999-04-30', 0, 'medan', 'Sumatera Utara', 'pria', 'lajang', 'negatif'),
-(6, 1178899765, 'Agus', '1998-05-11', 0, 'Palembang', 'Sumatera Selatan', 'pria', 'lajang', 'negatif'),
-(7, 7865111, 'reza', '1997-10-04', 0, 'Bengkulu', 'Bengkulu', 'pria', 'lajang', 'negatif'),
-(9, 67888999, 'Nico', '2006-02-15', 0, '', 'Sumatera Selatan', 'pria', 'lajang', 'negatif'),
-(10, 111800766, 'Alfa', '1999-06-15', 0, 'Purwokerto', 'Jawa Barat', 'pria', 'lajang', 'negatif'),
-(11, 6678888, 'faa', '2021-06-23', 0, 'Langsa', 'Riau', 'pria', 'lajang', 'negatif');
+(10, 111800766, 'Alfa', '1999-06-15', 21, 'Purwokerto', 'Jawa Barat', 'pria', 'lajang', 'negatif'),
+(12, 2147483647, 'Atha', '2001-06-01', 20, 'Jakarta', 'Dki Jakarta', 'pria', 'lajang', 'negatif'),
+(13, 12235513, 'Rahmah Kusuma', '2001-03-12', 20, 'Jakarta\r\n', 'Dki Jakarta', 'wanita', 'lajang', 'negatif'),
+(14, 456234, 'Muhammad Nico', '2000-05-14', 0, 'Jakarta', 'Dki Jakarta', 'pria', 'lajang', 'negatif');
 
 -- --------------------------------------------------------
 
@@ -125,16 +133,16 @@ CREATE TABLE `tbl_soal` (
 --
 
 INSERT INTO `tbl_soal` (`id_soal`, `soal`, `a`, `b`, `c`, `d`, `knc_jawaban`, `gambar`, `tanggal`, `aktif`) VALUES
-(9, 'Apa Nama Arti Nama Corona Dalam Bahasa Indonesia', 'Mahkota ', 'Virus', 'Batuk', 'Infeksi', 'b', '', '0000-00-00', 'Y'),
-(10, 'CPU Merupakan Singkatan dari Virus Corona (COVID-19) yang menyerang manusia muncul di negara ... pada awal  tahun 2020.', 'Cina', 'Italia', 'Amerika', 'Indonesia', 'c', '', '0000-00-00', 'Y'),
-(11, ' COVID-19 bisa masuk melalui anggota-anggota tubuh di bawah ini, kecuali...', 'Mata', 'Hidung', 'Mulut', 'Telinga', 'c', '', '0000-00-00', 'Y'),
-(12, 'Dibawah ini adalah media penyebaran virus Corona, kecuali....', 'Bersalaman/Sentuhan tangan', 'Udara', 'Percikan batuk dan bersin', 'Benda-benda Padat', 'a', '', '0000-00-00', 'Y'),
-(13, 'Cuci tangan yang paling baik dilakukan dengan menggunakan sabun pada...', 'Air mengalir', 'Air dalam wadah', 'Air kolam', 'Air hangat', 'd', '', '0000-00-00', 'Y'),
-(14, ' Cara bersin yang baik dan beretika yaitu....', 'jaga jarak', 'Tutup Hidung', 'pakai Masker', 'Bersin sembarangan', 'b', '', '0000-00-00', 'Y'),
-(15, 'Berikut yang bukan termasuk alat output adalah...?', 'keyboard', 'speaker', 'monitor', 'printer', 'a', '', '0000-00-00', 'Y'),
-(16, 'Peran serta masyarakat diperlukan untuk mencegah COVID-19 semakin menyebar dengan', 'Menjalankan pola hidup bersih', 'Tetap diam di rumah ', 'Banyak makan dan minum', 'Keluar rumah\r\n', 'c', '', '0000-00-00', 'Y'),
-(17, 'Suhu tubuh yang bisa diindikasikan sedang terjangkit penyakit termasuk COVID-19 yaitu...', '35 0C', '36 0C', '37 0C', '38 0C', 'b', '', '0000-00-00', 'Y'),
-(18, 'Virus corona (COVID-19) dibawa oleh hewan... dan menular kepada manusia', 'Burung', 'Itik', 'Kelelawar', 'Ayam', 'c', '', '0000-00-00', 'Y');
+(9, 'Apa Nama Arti Nama Corona Dalam Bahasa Indonesia?', 'Mahkota ', 'Virus', 'Batuk', 'Infeksi', 'b', '', '0000-00-00', 'Y'),
+(10, 'COVID-19 merupakan singkatan dari Coronavirus Diseases 2019 yang menyerang manusia muncul di negara ... pada awal  tahun 2019.', 'Cina', 'Italia', 'Amerika', 'Indonesia', 'a', '', '0000-00-00', 'Y'),
+(11, 'COVID-19 bisa masuk melalui anggota-anggota tubuh di bawah ini, kecuali...', 'Mata', 'Hidung', 'Mulut', 'Telinga', 'd', '', '0000-00-00', 'Y'),
+(12, 'Dibawah ini adalah media penyebaran virus Corona, kecuali....', 'Diam di rumah', 'Udara', 'Percikan batuk dan bersin', 'Benda-benda Padat', 'a', '', '0000-00-00', 'Y'),
+(13, 'Berikut ini merupakan cara mencuci tangan yang paling baik, kecuali....', 'Sabun dan air bersih', 'Handsanitizer', 'Tisu Basah', 'Air kolam', 'a', '', '0000-00-00', 'Y'),
+(14, 'Cara bersin yang baik dan beretika yaitu..', 'Menggunakan lengan', 'Menutup mulut', 'Semua jawaban benar', 'Menutup hidung', 'c', '', '0000-00-00', 'Y'),
+(15, 'Berikut ini  termasuk gejala COVID-19, kecuali....', 'Cacar', 'Demam', 'Sakit Tenggorokan', 'Pilek', 'a', '', '0000-00-00', 'Y'),
+(16, 'Peran serta masyarakat diperlukan untuk mencegah COVID-19 semakin menyebar dengan....', 'Berada di kerumunan', 'Tetap diam di rumah ', 'Tidak memakai masker', 'Keluar rumah\r\n', 'b', '', '0000-00-00', 'Y'),
+(17, 'Suhu tubuh yang bisa diindikasikan terinfeksi COVID-19 yaitu...', '35 derajat Celcius', '36 derajat Celcius', '37 derajat Celcius', '34 derajat Celcius', 'c', '', '0000-00-00', 'Y'),
+(18, 'Hal yang harus dihindari agar tidak terinfeksi COVID-19 adalah....', 'Mencuci tangan', 'Menjaga jarak', 'Memakai masker', 'Jangan sering menyentuh muka', 'd', '', '0000-00-00', 'Y');
 
 --
 -- Indexes for dumped tables
@@ -172,19 +180,19 @@ ALTER TABLE `tbl_soal`
 -- AUTO_INCREMENT for table `tbl_admin`
 --
 ALTER TABLE `tbl_admin`
-  MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tbl_jawaban`
 --
 ALTER TABLE `tbl_jawaban`
-  MODIFY `id_jawaban` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_jawaban` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `tbl_register`
 --
 ALTER TABLE `tbl_register`
-  MODIFY `id_register` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_register` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `tbl_soal`

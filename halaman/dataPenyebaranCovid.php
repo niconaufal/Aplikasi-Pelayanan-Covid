@@ -1,6 +1,7 @@
 <?php
 //mengambil json
 $data = file_get_contents('provinsi.json');
+//membuat menjadi array
 $dataP = json_decode($data, true);
 $dataProv = $dataP["provinsi"];
 ?>
