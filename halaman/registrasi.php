@@ -18,4 +18,4 @@
         <a href="index.php?registrasiUser" class="btn btn-primary"><span class="iconify" data-icon="akar-icons:arrow-down" data-inline="false"></span> Registrasi Sekarang!</a>
         </div>
     </div>
-    </div>
+    
