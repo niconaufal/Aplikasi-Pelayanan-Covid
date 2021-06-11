@@ -209,7 +209,7 @@
           </div>
         </div>
       </div>
-    </div>
+    
 
 
     <div class="site-section bg-primary-light">
@@ -219,7 +219,7 @@
             <h2 class="mb-4 section-heading">Gejala-gejala terinfeksi COVID-19</h2>
             <p>Ketahui gejala terinfeksi COVID-19 dan segera hubungi penyedia pelayanan kesehatan atau fasilitas kesehatan jika menunjukkan satu dari gejala-gejala di bawah ini!</p>
           </div>
-        </div>
+        
                 
         <div class="row">
           <div class="col-lg-6 mb-4">
@@ -230,7 +230,7 @@
                 <h3>Demam Tinggi atau Kedinginan</h3>
                 <p>Jika mengalami demam tinggi atau kedinginan yang ekstrem, itu bisa menjadi tanda bahwa Anda telah terinfeksi. Demam dan Kedinginan adalah gejala umum COVID-19</p>
               </div>
-            </div>
+            
           
                   
           <div class="col-lg-6 mb-4">
@@ -241,7 +241,7 @@
                 <h3>Batuk Kering</h3>
                 <p> Batuk yang terjadi secara terus-menerus bisa menjadi tanda Anda terinfeksi COVID-19 meskipun penderita batuk kering tidak bisa disebut 100 persen penderita COVID-19</p>
               </div>
-            </div>
+           
 
                   
           <div class="col-lg-6 mb-4">
@@ -252,7 +252,7 @@
                 <h3>Sakit Tenggorokan</h3>
                 <p> Jika tenggorokan terasa sakit dan merasa anda pembengkakan, itu bisa menjadi indikasi terinfeksi COVID-19. Sakit tenggorokan merupakan salah satu gejala infeksi COVID-19 paling umum</p>
               </div>
-            </div>
+            
          
 
           <div class="col-lg-6 mb-4">
