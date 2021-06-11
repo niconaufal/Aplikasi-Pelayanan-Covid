@@ -4,7 +4,6 @@
     <span id="searchNik"></span>
 
 <script>
-    </form>
 function showHint(str) {
   if (str.length == 0) {
     document.getElementById("searchNik").innerHTML = "";
