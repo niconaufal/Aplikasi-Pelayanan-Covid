@@ -1,4 +1,4 @@
-<form action="" method="post">
+<form action="" method="post"></form>
     <label for=""><span class="iconify" data-icon="fluent:number-symbol-16-regular" data-inline="false"></span> Masukkan NIK Anda</label>
     <input type="number" name="nik" class="form-control" placeholder="Nik Anda Akan Dicek..." onkeyup="showHint(this.value)">
     <span id="searchNik"></span>
@@ -19,4 +19,4 @@ function showHint(str) {
   }
 }
 </script>
-</form>
+
