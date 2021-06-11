@@ -159,9 +159,7 @@
               <li>Jika demam, batuk, atau kesulitan bernapas, segera cari bantuan medis.</li>
             </ul>
             <p><a href="https://kesehatan.kontan.co.id/news/10-cara-efektif-mencegah-tidak-tertular-virus-corona?page=all"class="btn btn-primary">Baca lebih lanjut tentang Pencegahan COVID-19</a></p>
-            </div>
-            
-
+         
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
