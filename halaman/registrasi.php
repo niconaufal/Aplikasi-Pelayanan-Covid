@@ -16,6 +16,7 @@
     <div class="symptom d-flex">
         <div class="img">
         <img src="images/symptom_cough.png" alt="Image" class="img-fluid">
+        </div>
         <div class="text">
         <h3> User (Covid Ranger)</h3>
         <p>Daftarkan diri sebagai covid ranger di halaman registrasi</p>
