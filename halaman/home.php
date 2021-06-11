@@ -226,7 +226,6 @@
             <div class="symptom d-flex">
               <div class="img">
                 <img src="images/symptom_high-fever.png" alt="Image" class="img-fluid">
-              </div>
               <div class="text">
                 <h3>Demam Tinggi atau Kedinginan</h3>
                 <p>Jika mengalami demam tinggi atau kedinginan yang ekstrem, itu bisa menjadi tanda bahwa Anda telah terinfeksi. Demam dan Kedinginan adalah gejala umum COVID-19</p>
@@ -238,7 +237,6 @@
             <div class="symptom d-flex">
               <div class="img">
                 <img src="images/symptom_cough.png" alt="Image" class="img-fluid">
-              </div>
               <div class="text">
                 <h3>Batuk Kering</h3>
                 <p> Batuk yang terjadi secara terus-menerus bisa menjadi tanda Anda terinfeksi COVID-19 meskipun penderita batuk kering tidak bisa disebut 100 persen penderita COVID-19</p>
@@ -250,7 +248,6 @@
             <div class="symptom d-flex">
               <div class="img">
                 <img src="images/symptom_sore-troath.png" alt="Image" class="img-fluid">
-              </div>
               <div class="text">
                 <h3>Sakit Tenggorokan</h3>
                 <p> Jika tenggorokan terasa sakit dan merasa anda pembengkakan, itu bisa menjadi indikasi terinfeksi COVID-19. Sakit tenggorokan merupakan salah satu gejala infeksi COVID-19 paling umum</p>
