@@ -256,7 +256,7 @@
                 <p> Jika tenggorokan terasa sakit dan merasa anda pembengkakan, itu bisa menjadi indikasi terinfeksi COVID-19. Sakit tenggorokan merupakan salah satu gejala infeksi COVID-19 paling umum</p>
               </div>
             </div>
-          </div>
+         
 
           <div class="col-lg-6 mb-4">
             <div class="symptom d-flex">
