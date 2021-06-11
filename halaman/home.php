@@ -274,7 +274,6 @@
             <div class="note row">
             </div>
           </div>
-        </div>
       </div>
  
 
