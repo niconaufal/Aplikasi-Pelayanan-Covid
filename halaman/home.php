@@ -266,7 +266,7 @@
                 <h3>Sakit Kepala</h3>
                 <p> Sakit kepala dalam waktu yang cukup lama dapat menjadi indikasi terinfeksi COVID-19.</p>
               </div>
-          </div>
+         
        
                 
         <div class="row justify-content-md-center">
