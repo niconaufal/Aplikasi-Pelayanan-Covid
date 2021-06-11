@@ -1,17 +1,19 @@
 <div class="row align-items-center">
-          <div class="col-lg-6 mr-auto text-center text-lg-left">
-            <span class="d-block subheading">COVID-19 (KESADARAN)</span>
-            <h1 class="heading mb-3">Tetap aman dengan tetap di rumah!</h1>
-            <p class="mb-5">
-            Membantu Anda memberikan informasi
-            mengenai COVID-19 untuk menciptakan lingkungan yang aman
-            </p>
-            <p class="mb-4"><a href="https://kesehatan.kontan.co.id/news/10-cara-efektif-mencegah-tidak-tertular-virus-corona?page=all" class="btn btn-primary">Bagaimana cara mencegah COVID-19?</a></p>
+                    <div class="col-lg-6 mr-auto text-center text-lg-left">
+                      <span class="d-block subheading">COVID-19 (KESADARAN)</span>
+                      <h1 class="heading mb-3">Tetap aman dengan tetap di rumah!</h1>
+                      <p class="mb-5">
+                      Membantu Anda memberikan informasi
+                      mengenai COVID-19 untuk menciptakan lingkungan yang aman
+               </p>
+               <p class="mb-4"><a href="https://kesehatan.kontan.co.id/news/10-cara-efektif-mencegah-tidak-tertular-virus-corona?page=all" class="btn btn-primary">Bagaimana cara mencegah COVID-19?</a></p>
+               </div>
+               <div class="col-lg-6">
+               <figure class="illustration"></figure>
+               <img src="images/illustration.png" alt="Image" class="img-fluid">
+               <div class="col-lg-6"></div>    
           </div>
-          <div class="col-lg-6">
-            <figure class="illustration"></figure>
-              <img src="images/illustration.png" alt="Image" class="img-fluid">
-          <div class="col-lg-6"></div>       
+      </div>  
   
 <!-- MAIN -->
 
