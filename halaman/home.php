@@ -262,7 +262,6 @@
             <div class="symptom d-flex">
               <div class="img">
                 <img src="images/symptom_headache.png" alt="Image" class="img-fluid">
-              </div>
               <div class="text">
                 <h3>Sakit Kepala</h3>
                 <p> Sakit kepala dalam waktu yang cukup lama dapat menjadi indikasi terinfeksi COVID-19.</p>
