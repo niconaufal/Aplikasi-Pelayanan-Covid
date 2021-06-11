@@ -18,6 +18,7 @@
       </div>
     </div>
 <!-- MAIN -->
+
     <div class="site-section">
       <div class="container">
         <div class="row">
@@ -31,6 +32,7 @@
               </div>
             </figure>
           </div>
+                  
           <div class="col-lg-5 ml-auto">
             <h2 class="mb-4 section-heading">Apa itu COVID-19?</h2>
             <p><span class="iconify" data-icon="akar-icons:arrow-left" data-inline="false"></span> Mari tonton dan simak videonya!</p>
@@ -59,6 +61,7 @@
             </div>
           </div>
         </div>
+                
         <div class="col-lg-3">
           <div class="feature-v1 d-flex align-items-center">
             <div class="icon-wrap mr-3">
@@ -70,6 +73,7 @@
             </div>
           </div>
         </div>
+                
         <div class="col-lg-3">
           <div class="feature-v1 d-flex align-items-center">
             <div class="icon-wrap mr-3">
@@ -81,6 +85,7 @@
             </div>
           </div>
         </div>
+                
         <div class="col-lg-3">
           <div class="feature-v1 d-flex align-items-center">
             <div class="icon-wrap mr-3">
@@ -122,6 +127,7 @@
                   </div>
                 </div>
               </div>
+                      
               <div class="col-6 col-lg-6">
                 <div class="media-v1 bg-1">
                   <div class="icon-wrap">
@@ -172,6 +178,7 @@
             <h2 class="mb-4 section-heading">Cara Melindungi Diri dari Covid-19</h2>
           </div>
         </div>
+                
         <div class="row">
           <div class="col-lg-6 ">
             <div class="row mt-5 pt-5">
@@ -186,6 +193,7 @@
                   <li>Sering mengisolasi mandiri</li>
                 </ul>
               </div>
+                      
               <div class="col-lg-6 dont ">
                 <h3>Yang harus kamu hindari :</h3>
                 <ul class="list-unstyled cross">
@@ -199,6 +207,7 @@
               </div>
             </div>
           </div>
+                  
           <div class="col-lg-6">
             <img src="images/protect.png" alt="Image" class="img-fluid">
           </div>
@@ -265,6 +274,7 @@
             </div>
           </div>
         </div>
+                
         <div class="row justify-content-md-center">
           <div class="col-lg-15">
             <div class="note row">
