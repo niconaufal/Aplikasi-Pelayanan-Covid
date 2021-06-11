@@ -9,10 +9,9 @@
             <p class="mb-4"><a href="https://kesehatan.kontan.co.id/news/10-cara-efektif-mencegah-tidak-tertular-virus-corona?page=all" class="btn btn-primary">Bagaimana cara mencegah COVID-19?</a></p>
           </div>
           <div class="col-lg-6">
-            <figure class="illustration">
+            <figure class="illustration"></figure>
               <img src="images/illustration.png" alt="Image" class="img-fluid">
           <div class="col-lg-6"></div>
-             </figure>
           </div>           
         </div>
       </div>
