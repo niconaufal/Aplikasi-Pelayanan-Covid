@@ -12,7 +12,6 @@
             <figure class="illustration"></figure>
               <img src="images/illustration.png" alt="Image" class="img-fluid">
           <div class="col-lg-6"></div>       
-        </div>
       </div>
     </div>
 <!-- MAIN -->
