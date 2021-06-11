@@ -3,7 +3,6 @@
     <div class="symptom d-flex">
         <div class="img">
         <img src="images/symptom_high-fever.png" alt="Image" class="img-fluid">
-        </div>
         <div class="text">
         <h3>Admin</h3>
         <p>Daftarkan Diri Melalui Admin</p>
