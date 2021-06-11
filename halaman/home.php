@@ -13,7 +13,6 @@
               <img src="images/illustration.png" alt="Image" class="img-fluid">
           <div class="col-lg-6"></div>       
   
-    </div>
 <!-- MAIN -->
 
     <div class="site-section">
