@@ -11,9 +11,9 @@
           <div class="col-lg-6">
             <figure class="illustration">
               <img src="images/illustration.png" alt="Image" class="img-fluid">
-            </figure>
-          </div>
           <div class="col-lg-6"></div>
+             </figure>
+          </div>           
         </div>
       </div>
     </div>
