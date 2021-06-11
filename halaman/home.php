@@ -231,7 +231,7 @@
                 <p>Jika mengalami demam tinggi atau kedinginan yang ekstrem, itu bisa menjadi tanda bahwa Anda telah terinfeksi. Demam dan Kedinginan adalah gejala umum COVID-19</p>
               </div>
             </div>
-          </div>
+          
                   
           <div class="col-lg-6 mb-4">
             <div class="symptom d-flex">
@@ -242,7 +242,7 @@
                 <p> Batuk yang terjadi secara terus-menerus bisa menjadi tanda Anda terinfeksi COVID-19 meskipun penderita batuk kering tidak bisa disebut 100 persen penderita COVID-19</p>
               </div>
             </div>
-          </div>
+
                   
           <div class="col-lg-6 mb-4">
             <div class="symptom d-flex">
