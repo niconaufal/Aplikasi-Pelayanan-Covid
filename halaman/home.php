@@ -120,7 +120,6 @@
                   <div class="body">
                     <h3>Kenakan Masker </h3>
                     <p>Selalu kenakan masker saat di luar rumah.</p>
-                  </div>
                 </div>
               </div>
                       
