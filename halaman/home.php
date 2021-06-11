@@ -215,6 +215,7 @@
             <p>Ketahui gejala terinfeksi COVID-19 dan segera hubungi penyedia pelayanan kesehatan atau fasilitas kesehatan jika menunjukkan satu dari gejala-gejala di bawah ini!</p>
           </div>
         </div>
+                
         <div class="row">
           <div class="col-lg-6 mb-4">
             <div class="symptom d-flex">
@@ -227,6 +228,7 @@
               </div>
             </div>
           </div>
+                  
           <div class="col-lg-6 mb-4">
             <div class="symptom d-flex">
               <div class="img">
@@ -238,6 +240,7 @@
               </div>
             </div>
           </div>
+                  
           <div class="col-lg-6 mb-4">
             <div class="symptom d-flex">
               <div class="img">
