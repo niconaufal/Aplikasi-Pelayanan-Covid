@@ -1,21 +1,20 @@
 
-<div id="overlayer"></div>
-<div class="loader">
-<div class="spinner-border text-primary" role="status">
-    <span class="sr-only">Loading...</span>
-</div>
-</div>
+  <div id="overlayer"></div>
+  <div class="loader">
+  <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+  </div>
 
-<div class="site-wrap">
-
-<div class="site-mobile-menu site-navbar-target">
-    <div class="site-mobile-menu-header">
-    <div class="site-mobile-menu-close mt-3">
-        <span class="icon-close2 js-menu-toggle"></span>
+    <div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
     </div>
-    </div>
-    <div class="site-mobile-menu-body"></div>
-</div>
     
     <header class="site-navbar light js-sticky-header site-navbar-target" role="banner">
       <div class="container">
@@ -26,12 +25,10 @@
 
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
-
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active"><a href="index.php" class="nav-link">Home</a></li>
               <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="index.php?dataPenyebaranCovid"><span class="iconify" data-icon="carbon:data-vis-3" data-inline="false"></span> Data Penyebaran Covid</a></li>
-
                 <?php
                   if(!empty($_SESSION['nik'])){
                     echo"<li><a href='index.php?biodata' class='nav-link'><span class='iconify' data-icon='ant-design:user-outlined' data-inline='false'></span> Hello <b>$_SESSION[nama]</b></a></li>";
@@ -59,7 +56,6 @@
           <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3 text-black"></span></a></div>
         </div>
       </div>
-
     </header>
 
     <div class="hero-v1">
@@ -206,13 +202,10 @@
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
-
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
-
-  </div> <!-- .site-wrap -->
+  </div> 
