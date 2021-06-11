@@ -1,12 +1,12 @@
-<?php
-//mengambil json
-$data = file_get_contents('provinsi.json');
-//membuat menjadi array
-$dataP = json_decode($data, true);
-$dataProv = $dataP["provinsi"];
-?>
+  <?php
+  //mengambil json
+  $data = file_get_contents('provinsi.json');
+  //membuat menjadi array
+  $dataP = json_decode($data, true);
+  $dataProv = $dataP["provinsi"];
+  ?>
 
-<h4><span class="iconify" data-icon="fluent:data-histogram-24-regular" data-inline="false"></span> Data Penyebaran Covid di indonesia</h4>
+  <h4><span class="iconify" data-icon="fluent:data-histogram-24-regular" data-inline="false"></span> Data Penyebaran Covid di indonesia</h4>
 
 
 <nav>
@@ -54,58 +54,58 @@ $dataProv = $dataP["provinsi"];
   </div>
 </div>
 
-<script>
-//line
-var ctxL = document.getElementById("lineChart").getContext('2d');
-var myLineChart = new Chart(ctxL, {
-type: 'line',
-data: {
-labels: [<?php
-        foreach($dataProv as $dp){
-            echo '"' . $dp['nama'] . '",';
-        }
-        ?>],
-datasets: [{
-label: "Negatif",
-data: [<?php
+  <script>
+  //line
+  var ctxL = document.getElementById("lineChart").getContext('2d');
+  var myLineChart = new Chart(ctxL, {
+  type: 'line',
+  data: {
+  labels: [<?php
+          foreach($dataProv as $dp){
+              echo '"' . $dp['nama'] . '",';
+          }
+          ?>],
+  datasets: [{
+  label: "Negatif",
+  data: [<?php
         foreach($dataProv as $dp){
             //hitung jumlah user pada setiap Prov
             $jumlahUser = mysqli_query($conn,"SELECT COUNT(nama) as jumlahUser FROM tbl_register WHERE provinsi='$dp[nama]' AND hasil_pemeriksaan='negatif' ");
             $totalUser = mysqli_fetch_array($jumlahUser);
-            echo $totalUser['jumlahUser']. ', ';
-        }
-    ?>],
-backgroundColor: [
-'rgba(105, 0, 132, .2)',
-],
-borderColor: [
-'rgba(200, 99, 132, .7)',
-],
-borderWidth: 2
-},
-{
-label: "Positif",
-data: [<?php
+              echo $totalUser['jumlahUser']. ', ';
+          }
+      ?>],
+  backgroundColor: [
+  'rgba(105, 0, 132, .2)',
+  ],
+  borderColor: [
+  'rgba(200, 99, 132, .7)',
+  ],
+  borderWidth: 2
+  },
+  {
+  label: "Positif",
+  data: [<?php
         foreach($dataProv as $dp){
             //hitung jumlah user pada setiap Prov
             $jumlahUser = mysqli_query($conn,"SELECT COUNT(nama) as jumlahUser FROM tbl_register WHERE provinsi='$dp[nama]' AND hasil_pemeriksaan='positif' ");
             $totalUser = mysqli_fetch_array($jumlahUser);
             echo $totalUser['jumlahUser']. ', ';
         }
-    ?>],
-backgroundColor: [
-'rgba(0, 137, 132, .2)',
-],
-borderColor: [
-'rgba(0, 10, 130, .7)',
-],
-borderWidth: 2
-}
-]
-},
-options: {
-responsive: true
-}
-});
-</script>
+        ?>],
+    backgroundColor: [
+    'rgba(0, 137, 132, .2)',
+    ],
+    borderColor: [
+    'rgba(0, 10, 130, .7)',
+    ],
+    borderWidth: 2
+    }
+    ]
+    },
+    options: {
+    responsive: true
+    }
+    });
+    </script>
 
