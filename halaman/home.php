@@ -161,7 +161,7 @@
             <p><a href="https://kesehatan.kontan.co.id/news/10-cara-efektif-mencegah-tidak-tertular-virus-corona?page=all"class="btn btn-primary">Baca lebih lanjut tentang Pencegahan COVID-19</a></p>
             </div>
             </div>
-            </div>
+            
 
     <div class="site-section">
       <div class="container">
@@ -204,7 +204,7 @@
           <div class="col-lg-6">
             <img src="images/protect.png" alt="Image" class="img-fluid">
           </div>
-        </div>
+        
       
     
 
