@@ -203,12 +203,6 @@
                   
           <div class="col-lg-6">
             <img src="images/protect.png" alt="Image" class="img-fluid">
-          </div>
-        
-      
-    
-
-
     <div class="site-section bg-primary-light">
       <div class="container">
         <div class="row mb-5">
@@ -259,10 +253,7 @@
               <div class="text">
                 <h3>Sakit Kepala</h3>
                 <p> Sakit kepala dalam waktu yang cukup lama dapat menjadi indikasi terinfeksi COVID-19.</p>
-              </div>
-         
-       
-                
+              </div>          
         <div class="row justify-content-md-center">
           <div class="col-lg-15">
             <div class="note row">
