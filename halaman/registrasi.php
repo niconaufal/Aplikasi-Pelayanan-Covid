@@ -8,7 +8,6 @@
         <p>Daftarkan Diri Melalui Admin</p>
         <a href="https://wa.me/+6285717917864" target="_blank" class="btn btn-success"><span class="iconify" data-icon="akar-icons:whatsapp-fill" data-inline="false"></span> Whatshapp</a>
         </div>
-    </div>
     <div class="col-lg-6 mb-4">
     <div class="symptom d-flex">
         <div class="img">
@@ -20,4 +19,3 @@
         </div>
     </div>
     </div>
-</div>
