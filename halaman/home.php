@@ -1,36 +1,33 @@
-<div class="row align-items-center">
-                    <div class="col-lg-6 mr-auto text-center text-lg-left">
-                      <span class="d-block subheading">COVID-19 (KESADARAN)</span>
-                      <h1 class="heading mb-3">Tetap aman dengan tetap di rumah!</h1>
-                      <p class="mb-5">
-                      Membantu Anda memberikan informasi
-                      mengenai COVID-19 untuk menciptakan lingkungan yang aman
-               </p>
-               <p class="mb-4"><a href="https://kesehatan.kontan.co.id/news/10-cara-efektif-mencegah-tidak-tertular-virus-corona?page=all" class="btn btn-primary">Bagaimana cara mencegah COVID-19?</a></p>
-               </div>
-               <div class="col-lg-6">
-               <figure class="illustration"></figure>
-               <img src="images/illustration.png" alt="Image" class="img-fluid">
-               <div class="col-lg-6"></div>    
-          </div>
-      </div>  
+  <div class="row align-items-center">
+            <div class="col-lg-6 mr-auto text-center text-lg-left">
+            <span class="d-block subheading">COVID-19 (KESADARAN)</span>
+            <h1 class="heading mb-3">Tetap aman dengan tetap di rumah!</h1>
+            <p class="mb-5">
+             Membantu Anda memberikan informasi
+             mengenai COVID-19 untuk menciptakan lingkungan yang aman
+             </p>
+             <p class="mb-4"><a href="https://kesehatan.kontan.co.id/news/10-cara-efektif-mencegah-tidak-tertular-virus-corona?page=all" class="btn btn-primary">Bagaimana cara mencegah COVID-19?</a></p>
+             </div>
+             <div class="col-lg-6">
+             <figure class="illustration"></figure>
+             <img src="images/illustration.png" alt="Image" class="img-fluid">
+             <div class="col-lg-6"></div>    
+         </div>
+     </div>  
   
 <!-- MAIN -->
 
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7 mb-4 mb-lg-0">
-            <figure class="img-play-vid">
-                <video controls>
+             <div class="site-section">
+             <div class="container">
+              <div class="row">
+               <div class="col-lg-7 mb-4 mb-lg-0">
+                <figure class="img-play-vid">
+                    <video controls>
                     <source src="video/videoHomeCovid.mp4" type="video/webm" />
                     Browser Anda tidak mendukung tag ini, harap tingkatkan versi!
                 </video>   
-                <div class="absolute-block d-flex">
-              </div>
-            </figure>
-          </div>
-                  
+                <div class="absolute-block d-flex"></div>
+                 </figure>        
           <div class="col-lg-5 ml-auto">
             <h2 class="mb-4 section-heading">Apa itu COVID-19?</h2>
             <p><span class="iconify" data-icon="akar-icons:arrow-left" data-inline="false"></span> Mari tonton dan simak videonya!</p>
@@ -41,10 +38,11 @@
               <li>Menghindari kerumunan</li>
             </ul>
             <p><a href="https://www.alodokter.com/virus-corona" class="btn btn-primary">Pelajari lebih lanjut</a></p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </div>       
 
     <div class="container pb-5">
       <div class="row">
@@ -69,8 +67,7 @@
               <h3>Pencegahan</h3>
               <span class="d-block">Mencegah lebih baik daripada mengobati</span>
             </div>
-          </div>
-        </div>
+    
                 
         <div class="col-lg-3">
           <div class="feature-v1 d-flex align-items-center">
@@ -81,8 +78,7 @@
               <h3>Perawatan</h3>
               <span class="d-block">Selalu jaga kesehatan</span>
             </div>
-          </div>
-        </div>
+     
                 
         <div class="col-lg-3">
           <div class="feature-v1 d-flex align-items-center">
