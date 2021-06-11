@@ -2,7 +2,6 @@
     <label for=""><span class="iconify" data-icon="fluent:number-symbol-16-regular" data-inline="false"></span> Masukkan NIK Anda</label>
     <input type="number" name="nik" class="form-control" placeholder="Nik Anda Akan Dicek..." onkeyup="showHint(this.value)">
     <span id="searchNik"></span>
-
 <script>
 function showHint(str) {
   if (str.length == 0) {
@@ -20,3 +19,4 @@ function showHint(str) {
   }
 }
 </script>
+</form>
